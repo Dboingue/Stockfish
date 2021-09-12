@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="bitboard.h" />
+    <ClInclude Include="endgame.h" />
+    <ClInclude Include="evaluate.h" />
+    <ClInclude Include="material.h" />
+    <ClInclude Include="misc.h" />
+    <ClInclude Include="movegen.h" />
+    <ClInclude Include="movepick.h" />
+    <ClInclude Include="pawns.h" />
+    <ClInclude Include="position.h" />
+    <ClInclude Include="search.h" />
+    <ClInclude Include="thread.h" />
+    <ClInclude Include="thread_win32.h" />
+    <ClInclude Include="timeman.h" />
+    <ClInclude Include="tt.h" />
+    <ClInclude Include="types.h" />
+    <ClInclude Include="uci.h" />
+    <ClInclude Include="syzygy\tbprobe.h">
+      <Filter>syzygy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="benchmark.cpp" />
+    <ClCompile Include="bitbase.cpp" />
+    <ClCompile Include="bitboard.cpp" />
+    <ClCompile Include="endgame.cpp" />
+    <ClCompile Include="evaluate.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="material.cpp" />
+    <ClCompile Include="misc.cpp" />
+    <ClCompile Include="movegen.cpp" />
+    <ClCompile Include="movepick.cpp" />
+    <ClCompile Include="pawns.cpp" />
+    <ClCompile Include="position.cpp" />
+    <ClCompile Include="psqt.cpp" />
+    <ClCompile Include="search.cpp" />
+    <ClCompile Include="thread.cpp" />
+    <ClCompile Include="timeman.cpp" />
+    <ClCompile Include="tt.cpp" />
+    <ClCompile Include="uci.cpp" />
+    <ClCompile Include="ucioption.cpp" />
+    <ClCompile Include="syzygy\tbprobe.cpp">
+      <Filter>syzygy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="syzygy">
+      <UniqueIdentifier>{4b69a15c-22d0-406d-80fc-279db37e82af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
